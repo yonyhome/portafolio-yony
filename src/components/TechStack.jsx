@@ -99,19 +99,7 @@ export default function TechStack() {
                     <p className="text-xs text-slate-500">{tech.years} de experiencia</p>
                   </div>
 
-                  {/* Progress Bar */}
-                  <div className="space-y-2">
-                    <div className="flex justify-between text-xs text-slate-600">
-                      <span>Proficiencia</span>
-                      <span className="font-semibold">{tech.proficiency}%</span>
-                    </div>
-                    <div className="h-2 bg-slate-200 rounded-full overflow-hidden">
-                      <div 
-                        className={`h-full bg-gradient-to-r ${tech.gradient} rounded-full transition-all duration-1000`}
-                        style={{ width: `${tech.proficiency}%` }}
-                      ></div>
-                    </div>
-                  </div>
+                  
                 </div>
               </div>
             );

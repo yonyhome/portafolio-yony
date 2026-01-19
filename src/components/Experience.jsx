@@ -167,7 +167,7 @@ export default function Experience() {
                       <div className="flex flex-wrap items-start justify-between gap-4 mb-4">
                         <div className="flex-1">
                           <h3 className="text-2xl font-bold text-slate-900 mb-2">{exp.role}</h3>
-                          <p className="text-lg font-semibold bg-gradient-to-r ${colors.gradient} bg-clip-text text-transparent mb-3">
+                          <p className={`text-lg font-semibold bg-gradient-to-r ${colors.gradient} bg-clip-text text-transparent mb-3`}>
                             {exp.company}
                           </p>
                           <div className="flex flex-wrap gap-3 text-sm text-slate-600">
@@ -185,7 +185,7 @@ export default function Experience() {
                           </div>
                         </div>
                         {exp.current && (
-                          <div className="px-4 py-2 bg-gradient-to-r ${colors.gradient} text-white rounded-full text-sm font-bold shadow-lg">
+                          <div className={`px-4 py-2 bg-gradient-to-r ${colors.gradient} text-white rounded-full text-sm font-bold shadow-lg`}>
                             Actual
                           </div>
                         )}

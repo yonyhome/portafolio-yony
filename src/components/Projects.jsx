@@ -15,7 +15,10 @@ export default function Projects() {
         "/images/projects/lexagen/lexagen-1.jpg",
         "/images/projects/lexagen/lexagen-2.jpg",
         "/images/projects/lexagen/lexagen-3.jpg",
-        "/images/projects/lexagen/lexagen-4.jpg"
+        "/images/projects/lexagen/lexagen-4.jpg",
+        "/images/projects/lexagen/lexagen-5.jpg",
+        "/images/projects/lexagen/lexagen-6.jpg"
+
       ],
       metrics: [
         { label: "Usuarios Activos", value: "500+", icon: Users },
@@ -38,7 +41,13 @@ export default function Projects() {
         "/images/projects/sistema-ia-uninorte/ia-1.jpg",
         "/images/projects/sistema-ia-uninorte/ia-2.jpg",
         "/images/projects/sistema-ia-uninorte/ia-3.jpg",
-        "/images/projects/sistema-ia-uninorte/ia-4.jpg"
+        "/images/projects/sistema-ia-uninorte/ia-4.jpg",
+        "/images/projects/sistema-ia-uninorte/ia-5.jpg",
+        "/images/projects/sistema-ia-uninorte/ia-6.jpg",
+        "/images/projects/sistema-ia-uninorte/ia-7.jpg",
+        "/images/projects/sistema-ia-uninorte/ia-8.jpg",
+        "/images/projects/sistema-ia-uninorte/ia-9.jpg"
+
       ],
       metrics: [
         { label: "Consultas/Mes", value: "500+", icon: TrendingUp },
